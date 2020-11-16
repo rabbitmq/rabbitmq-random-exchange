@@ -1,5 +1,12 @@
 # RabbitMQ Random Exchange Type
 
+## This was migrated to https://github.com/rabbitmq/rabbitmq-server
+
+This repository has been moved to the main unified RabbitMQ "monorepo", including all open issues. You can find the source under [/deps/rabbitmq_random_exchange](https://github.com/rabbitmq/rabbitmq-server/tree/master/deps/rabbitmq_random_exchange).
+All issues have been transferred.
+
+## Overview
+
 This exchange type is for load-balancing among consumers. It's basically 
 a direct exchange, with the exception that, instead of each consumer bound 
 to that exchange with the same routing key getting a copy of the message, 
